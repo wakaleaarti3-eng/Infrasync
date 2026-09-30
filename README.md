@@ -1,5 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -40,6 +39,3 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 # Infrasync
 Dark-theme government ops dashboard for triaging citizen infrastructure requests — interactive hex-grid demand map, AI-powered recommendation panel, and a Gemini-backed copilot. Built with Next.js, Tailwind, and react-map-gl for a BRICS hackathon MVP.
 >>>>>>> 618584aa9a315352b50f1a00c7763d94c7e2b86b
-=======
-
->>>>>>> 2a92a92fbc1df7db72e2d074060b28fad73b58c7
