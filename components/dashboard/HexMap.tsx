@@ -7,7 +7,7 @@ import Map, {
   Layer,
   Marker,
   NavigationControl,
-  type MapLayerMouseEvent,
+  type MapMouseEvent,
 } from "react-map-gl/mapbox";
 import type { FillLayerSpecification, LineLayerSpecification } from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
@@ -99,7 +99,7 @@ export default function HexMap({ hotspots, selectedId, onSelect }: HexMapProps) 
   );
 
   const handleClick = useCallback(
-    (event: MapLayerMouseEvent) => {
+    (event: MapMouseEvent) => {
       const feature = event.features?.[0];
       if (!feature) return;
       const id = feature.properties?.id as string | undefined;
